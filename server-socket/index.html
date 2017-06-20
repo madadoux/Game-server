@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Sever</title>
+</head>
+	<script src="/socket.io/socket.io.js"></script>
+
+<script>
+	var socket = io();
+  socket.on('broadcast',function(data){
+			  document.body.innerHTML = '';
+			  document.write(data.description);
+	  });	
+</script>
+<body>
+<h1>Hello from the other side !</h1>
+
+</body>
+</html>

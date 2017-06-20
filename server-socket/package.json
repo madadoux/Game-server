@@ -1,0 +1,23 @@
+{
+  "name": "server-socket",
+  "version": "8.0.0",
+  "description": "My server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fadia Tarek",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.14.1",
+    "express-fileupload": "^0.1.2",
+    "flag": "^1.0.0",
+    "node-mysql-importer": "0.0.10",
+    "socket.io": "^1.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  }
+}
